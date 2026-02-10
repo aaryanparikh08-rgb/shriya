@@ -1,15 +1,12 @@
-const CONFIG = {
-  // Basic Information
+window.VALENTINE_CONFIG = {
   valentineName: "Shriya",
   pageTitle: "Will You Be My Valentine? 💝",
 
-  // Floating Background Elements
   floatingEmojis: {
     hearts: ['❤️', '💖', '💝', '💗', '💓'],
     bears: ['🧸', '🐻']
   },
 
-  // Questions and Buttons
   questions: {
     first: {
       text: "Do you like me?",
@@ -29,21 +26,18 @@ const CONFIG = {
     }
   },
 
-  // Love Meter Messages
   loveMessages: {
     extreme: "WOOOOW You love me that much?? 🥰🚀💝",
     high: "To infinity and beyond! 🚀💝",
     normal: "And beyond! 🥰"
   },
 
-  // Final Celebration
   celebration: {
     title: "Yay! I'm the luckiest person...",
     message: "Now come get your gift...",
     emojis: "🎁💖🤗💝💋❤️💕"
   },
 
-  // Website Colors
   colors: {
     backgroundStart: "#ffafbd",
     backgroundEnd: "#ffc3a0",
@@ -52,7 +46,6 @@ const CONFIG = {
     textColor: "#ff4757"
   },
 
-  // Animation Settings
   animations: {
     floatDuration: "15s",
     floatDistance: "50px",
@@ -60,9 +53,8 @@ const CONFIG = {
     heartExplosionSize: 1.5
   },
 
-  // Music Settings (see section B)
   music: {
-    enabled: true,
+    enabled: false,
     autoplay: false,
     musicUrl: "",
     startText: "🎵 Play Music",
@@ -70,8 +62,6 @@ const CONFIG = {
     volume: 0.6
   }
 };
-
-window.CONFIG = CONFIG;
 
 // Don't modify anything below this line unless you know what you're doing
 window.VALENTINE_CONFIG = CONFIG; 
